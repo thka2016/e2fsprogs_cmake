@@ -33,6 +33,6 @@ jobs:
         uses: ncipollo/release-action@v1.8.6
         with:
           artifacts: ${{ github.workspace }}/bin/*
-          name: "Linux x86_64"
+          name: "Android ndk arm64-v8a"
           tag: "${{ env.BUILD_TIME }}"
           token: ${{ secrets.GITHUB_TOKEN }}
